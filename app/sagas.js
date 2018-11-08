@@ -5,7 +5,7 @@
  * off at the same time).
  */
 import { fork, all } from 'redux-saga/effects';
-import githubData from 'containers/HomePage/saga';
+//import githubData from 'containers/HomePage/saga';
 
 export default function* root() {
   //yield [fork(githubData)];
